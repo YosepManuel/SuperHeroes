@@ -1,0 +1,8 @@
+
+<div class="heroes-menu">
+  <a *ngFor="let hero of heroes"
+  routerLink="/detail/{{hero._nickname}}">
+  <img src="{{hero._picture}}">
+  {{hero._nickname}}
+</a>
+</div>

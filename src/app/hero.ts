@@ -1,4 +1,6 @@
 export interface Hero {
-    id: number;
-    name: string;
+    _id: number;
+    _name: string;
+    _nickname: string;
+    _picture: string;
 }
